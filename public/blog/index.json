@@ -22,5 +22,37 @@
     "tags": ["security", "exam", "study"],
     "excerpt": "学習計画、出題傾向、午後対策の要点を簡潔に整理。",
     "cover": "/blog/covers/sc-exam-notes.svg"
+  },
+  {
+    "slug": "react-performance-notes",
+    "title": "React パフォーマンス最適化メモ",
+    "date": "2025-08-26",
+    "tags": ["react", "performance"],
+    "excerpt": "メモ化・分割・並列化でUXを改善する要点",
+    "cover": "/blog/covers/react-performance-notes.svg"
+  },
+  {
+    "slug": "aws-cost-optimization",
+    "title": "AWSコスト最適化 実践メモ",
+    "date": "2025-08-27",
+    "tags": ["aws", "cost", "ops"],
+    "excerpt": "コスト可視化、リザーブド/セービング、アーキ見直し",
+    "cover": "/blog/covers/aws-cost-optimization.svg"
+  },
+  {
+    "slug": "az-204-study-plan",
+    "title": "AZ-204 学習ロードマップ",
+    "date": "2025-08-28",
+    "tags": ["azure", "exam"],
+    "excerpt": "試験範囲をタスク化し、ハンズオン中心で学ぶ",
+    "cover": "/blog/covers/az-204-study-plan.svg"
+  },
+  {
+    "slug": "zero-trust-starter",
+    "title": "ゼロトラスト入門: はじめの一歩",
+    "date": "2025-08-29",
+    "tags": ["security", "zero-trust"],
+    "excerpt": "段階導入のための要点と現実的な進め方",
+    "cover": "/blog/covers/zero-trust-starter.svg"
   }
 ]
