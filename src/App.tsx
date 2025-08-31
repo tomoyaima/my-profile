@@ -1,13 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useAuth0 } from '@auth0/auth0-react';
 import Home from './pages/Home';
 import CreatePost from './pages/CreatePost';
 import { ChakraProvider } from '@chakra-ui/react'
 import Header from './components/Header';
 import Footer from './components/Footer';
-import About from './pages/About';
 import HeaderSpace from './components/HeaderSpace';
+import Todo from './pages/Todo';
+import IdentitySlides from './pages/IdentitySlides';
+import PptxViewer from './pages/PptxViewer';
+import Analytics from './pages/Analytics';
+import PersonalBlog from './pages/PersonalBlog';
+import BlogPost from './pages/BlogPost';
 
 const App: React.FC = () => {
   const { getAccessTokenSilently, user,isAuthenticated, loginWithRedirect, logout } = useAuth0();
@@ -38,7 +43,12 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/create" element={<CreatePost />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/todo" element={<Todo />} />
+            <Route path="/identity" element={<IdentitySlides />} />
+            <Route path="/pptx" element={<PptxViewer />} />
+            <Route path="/analytics" element={<Analytics />} />
+            <Route path="/blog" element={<PersonalBlog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>
     
           <Footer/>

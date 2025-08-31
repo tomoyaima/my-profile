@@ -24,7 +24,6 @@ const Header: React.FC = () => {
 
         {/* メニューバー */}
         <HStack as="nav" spacing="4" display={{ base: 'none', md: 'flex' }}>
-          <Link href="/about" fontWeight="bold">About</Link>
           <Menu>
             <MenuButton as={Link} href="#" fontWeight="bold">
               Products <ChevronDownIcon />

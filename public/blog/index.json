@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "hello-world",
+    "title": "Hello, World",
+    "date": "2025-08-20",
+    "tags": ["intro", "personal"],
+    "excerpt": "個人ブログの最初の投稿。これからの方針と簡単な自己紹介。",
+    "cover": "/blog/covers/hello-world.svg"
+  },
+  {
+    "slug": "id-management-notes",
+    "title": "ID管理メモ: 実装の要点",
+    "date": "2025-08-22",
+    "tags": ["security", "identity"],
+    "excerpt": "OIDCやトークン管理、SSOの導入検討メモ。",
+    "cover": "/blog/covers/id-management-notes.svg"
+  },
+  {
+    "slug": "sc-exam-notes",
+    "title": "情報処理安全確保支援士 合格メモ",
+    "date": "2025-08-24",
+    "tags": ["security", "exam", "study"],
+    "excerpt": "学習計画、出題傾向、午後対策の要点を簡潔に整理。",
+    "cover": "/blog/covers/sc-exam-notes.svg"
+  }
+]

@@ -18,10 +18,12 @@ const Header: React.FC = () => {
           MySite
         </Heading>
         <HStack spacing={8}>
-          <Link href="#" color="black">Home</Link>
-          <Link href="#" color="black">About</Link>
-          <Link href="#" color="black">Services</Link>
-          <Link href="#" color="black">Contact</Link>
+          <Link href="/" color="black">Home</Link>
+          <Link href="/todo" color="black">Todo</Link>
+          <Link href="/identity" color="black">ID管理</Link>
+          <Link href="/pptx?src=/sample.pptx" color="black">PPTX</Link>
+          <Link href="/analytics" color="black">Analytics</Link>
+          <Link href="/blog" color="black">Blog</Link>
         </HStack>
         {isAuthenticated ? (
             <Button onClick={() => logout({ logoutParams: {returnTo: window.location.origin }})}>
