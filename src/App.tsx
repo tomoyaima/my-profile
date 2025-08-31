@@ -13,6 +13,7 @@ import PptxViewer from './pages/PptxViewer';
 import Analytics from './pages/Analytics';
 import PersonalBlog from './pages/PersonalBlog';
 import BlogPost from './pages/BlogPost';
+import Gallery from './pages/Gallery';
 
 const App: React.FC = () => {
   const { getAccessTokenSilently, user,isAuthenticated, loginWithRedirect, logout } = useAuth0();
@@ -49,6 +50,7 @@ const App: React.FC = () => {
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/blog" element={<PersonalBlog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/gallery" element={<Gallery />} />
           </Routes>
     
           <Footer/>
