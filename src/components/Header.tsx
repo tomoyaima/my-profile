@@ -24,6 +24,7 @@ const Header: React.FC = () => {
           <Link href="/pptx?src=/sample.pptx" color="black">PPTX</Link>
           <Link href="/analytics" color="black">Analytics</Link>
           <Link href="/blog" color="black">Blog</Link>
+          <Link href="/gallery" color="black">Gallery</Link>
         </HStack>
         {isAuthenticated ? (
             <Button onClick={() => logout({ logoutParams: {returnTo: window.location.origin }})}>
